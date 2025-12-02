@@ -385,3 +385,62 @@
 .send-btn:hover {
     background-color: #1565c0;
 }
+
+/* Dark Mode Overrides */
+body.dark-mode .chat-layout,
+body.dark-mode .chat-sidebar,
+body.dark-mode .chat-main {
+    background-color: var(--bg-primary);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .chat-sidebar-header h2,
+body.dark-mode .chat-item-name,
+body.dark-mode .chat-header-info h3,
+body.dark-mode .chat-list-section h3,
+body.dark-mode .other .chat-bubble {
+    color: var(--text-primary);
+}
+
+body.dark-mode .chat-search input,
+body.dark-mode .chat-input-form {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+body.dark-mode .chat-item:hover,
+body.dark-mode .chat-item.active {
+    background-color: rgba(0, 185, 185, 0.15);
+}
+
+body.dark-mode .chat-main-header,
+body.dark-mode .chat-input-wrapper {
+    background-color: var(--bg-primary);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .other .chat-bubble {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .date-separator span {
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+body.dark-mode .chat-item-preview,
+body.dark-mode .sender-name,
+body.dark-mode .chat-time {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .icon-btn {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .icon-btn:hover {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+}
